@@ -20,7 +20,7 @@ if q1 == "m" or q1 == "M":
     if time <= 5:
         b = 2.5 * time
     else:
-        b - 2.5 * 5 + 0.12 * time
+        b = 2.5 * 5 + 0.12 * time
     c = 5 + 0.06 * time
 
     if a < b and a < c:
@@ -34,4 +34,3 @@ if q1 == "m" or q1 == "M":
 elif q1 == "k" or q1 == "K":
     q2 = float(input("How many miles would you like to scooter?"))
     print("That is", kiloMile(q2), "kilometers")
-    print((time(q2, 15)) * 60)
